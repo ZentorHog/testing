@@ -26,5 +26,5 @@ jobs:
     - name: Install dependencies for based on package.json
       run: npm install
 
-    - name: Run tests with sudo in "tests" folder
-      run: sudo npm test
+    - name: Run tests in "tests" folder
+      run: npm test
